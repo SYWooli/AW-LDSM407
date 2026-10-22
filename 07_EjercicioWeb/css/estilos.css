@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Loop:ital@0;1&display=swap');
+
+@font-face{
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+
+@font-face{
+    font-family: "GODOFWAR";
+    src: url("../font/GODOFWAR.TTF");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    /*font-size: 0px; */
+    background-image: url("../image/fondoGOW2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* #inicio{
+    height: 100vh;
+} */
+
+#titulo{
+    font-family: GODOFWAR, cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10vh;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 50px;
+}
+
+    image, figcaption{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+        #img{
+            width: 48%;
+            float: left;
+        }
+
+        figcaption{
+            font-family: GODOFWAR, cursive;
+            font-size: 1rem;
+            padding: 20px;
+            color: rgb(252, 252, 252);
+            text-align: justify;
+            float: right;
+            background-color: rgba(0, 0, 0, 0.55);
+            border-radius: 15px;
+        }
+
+        figcaption::first-letter{
+            font-size: 2.5rem;
+            float: left;
+            margin-right: 5px;
+        }
+
+.fila{
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+}
+
+.icono{
+    color: #ffffff;
+    font-size: 5rem;
+    padding-top: 20px;
+}
+    .marco{
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: rgba(0, 0, 0, 0.55);
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+    p{
+        font-family: GODOFWAR, cursive;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #ffffff;  
+        padding: 20px;
+    }
+
+
