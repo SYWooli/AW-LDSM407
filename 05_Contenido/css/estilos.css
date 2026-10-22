@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Loop:ital@0;1&display=swap');
+
+@font-face{
+    font-family: "Bubbler";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+@font-face{
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+@font-face{
+    font-family: "Redes";
+    src: url("../font/Grunge-Social-Media.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 0px;
+}
+
+/*------------------- Header ---------------------*/
+
+#inicio{
+    background-color: black;
+    height: 100vh;
+}
+
+    #logo{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+
+    }
+
+    #titulos{
+        /*width: 100%;}*/
+        background: url(../image/fondo.jpg) no-repeat;
+        background-size: 100%;
+        height: 100vh;
+        color: #fff;
+        text-align: center;
+        padding-top: 33vh;
+    }
+
+        h4{
+            font-family: 'Zen Loop', cursive;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            letter-spacing: 3pX;
+        }
+        #tendencia{
+            font-family: Chilanka, cursive;
+            font-size: 4.5rem;
+            margin-bottom: 30px;
+        }   
+        
+        h3{
+            font-family: Bubbler, recursive;
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+        }
+/*------------------- nav ---------------------*/
+
+nav{
+    height: 6vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: right;
+    position: sticky;
+    top: 0px;
+
+}
+    a{
+        color: #fff;
+        font-family: 'Zen Loop', cursive;
+        font-size: 1.4rem;
+        text-decoration: none;
+        padding: 10px 2px;
+        display: inline-block;
+        margin-right: 25px;
+
+    }
+
+    a:hover{
+        font-weight: 600;
+    }
+
+/*------------------- Secciones ---------------------*/
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+}
+
+/*------------------- Sección news ---------------------*/
+
+#menu_news{
+    background: radial-gradient(circle at 39.55% -9.26%, #a5ded5 0, #a2deda 3.33%, #a1dedf 6.67%, #a0dde4 10%, #a1dde9 13.33%, #a3dced 16.67%, #a5dbf0 20%, #a9daf3 23.33%, #aed9f6 26.67%, #b3d7f7 30%, #b9d6f8 33.33%, #c0d4f8 36.67%, #c6d2f8 40%, #cdd0f7 43.33%, #d4cff5 46.67%, #dacdf2 50%, #e0cbef 53.33%, #e6caeb 56.67%, #ebc9e7 60%, #efc7e2 63.33%, #f3c7dd 66.67%, #f6c6d8 70%, #f8c6d3 73.33%, #fac6ce 76.67%, #fbc6c9 80%, #fbc6c4 83.33%, #fac7bf 86.67%, #f8c8bb 90%, #f6c9b7 93.33%, #f3cbb4 96.67%, #f0ccb1 100%);;
+}
+
+    .titulo{
+        font-family: Chilanka, cursive;
+        font-size: 4rem;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+        margin-bottom: 30px;
+    }
+
+    figure, #concepto_clay{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        figure h3{
+            font-size: 1.5rem;
+            font-family: 'Permanent Marker', cursive;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 250px;
+        }
+
+        #img_clay{
+            width: 60%;
+            margin: 20px;
+            float: right;
+        }
+
+        figcaption{
+            font-family: Bubbler, cursive;
+            font-size: 1.2rem;
+            color: royalblue;
+            background-color: rgba(75, 228, 207, 0.5);
+            text-align: justify;
+            padding: 10px;
+        }
+    
+
+    fieldset{
+        width: 90%;
+        margin: 0 auto;
+        background-color: #87e4d8;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1rem;
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 20px 20px 10px #d2333b;
+    }
+
+        legend{
+            color: #69ff87;
+            background-color: #b187d2;
+            font-size: 1.4rem;
+            padding: 2px 10px;
+            border-radius: 10px;
+            text-shadow: 2px 2px 4px #000;
+            box-shadow: 10px 10px 5px #3f4ac9;
+        }
+
+        .icono{
+            color: #eb8ba1;
+            font-size: 4rem;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+            p::first-letter{
+                font-size: 2.5rem;
+                float: left;
+                margin-right: 5px;
+            }
+
+            p span{
+                font-weight: bold;
+                font-size: 1.5rem;
+                font-family: Bubbler, cursive;
+                text-shadow: 2px 2px 4px #000;
+            }
+
+            ul{
+                width: 40%;
+                text-align: left;
+                margin: 0 auto;
+            }
+
+                ol{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+
+        #tabla{
+            font-size: 1rem;
+            font-family: Chilanka, cursive;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+        td, th{
+            border: 1px solid #0d6761;
+            padding: 8px;
+        }
+
+        th{
+            background-color: #993b3b;
+            color: #87e4d8;
+        }
+        
+        tr:nth-child(even){
+            background-color: #ff9898;
+        }
+
+        tr:nth-child(odd){
+            background-color: #fac6c6;
+        }
+
+        tr:hover{
+            background-color: #ffd883;
+        }
+
+/*------------------- Menú contac ---------------------*/
+#menu_contact{
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+    #glass_estilo{
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid #fff;
+        padding: 25px;
+        backdrop-filter: blur(20px);
+    }
+
+        input{
+            width: 90%;
+            font-size: 1rem;
+            color: #0d6761;
+            margin: 10px;
+            padding: 12px;
+            border: none;
+        }
+
+        input:focus{
+            outline: 0px;
+            background-color: #0d6761;
+            color: #fff;
+        }
+
+        input[type="submit"]{
+            font-family: bBubbler, cursive;
+            color: #fff;
+            letter-spacing: 2px;
+            background-color: #3f4ac9;
+            width: 130px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #a8689f;
+            color : #82578a;
+            cursor: pointer;
+        }
+
+    #mapa{
+        width: 100%;
+        height: 300px;
+        margin-top: 60px;
+    }
+
+/*------------------- Menú media ---------------------*/
+
+#menu_media{
+    background-color: #993b3b;
+}
+
+    .multimedios{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 30px;
+    }
+
+    #youtube, #promo{
+        width: 90%;
+        height: 400px;
+    }
+
+/*------------------- Footer ---------------------*/
+footer{
+    background-color: #000;
+    padding: 20px 50px 0px;
+    
+}
+
+    #redes, #derechos{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        #redes a{
+            font-family: Redes, cursive;
+        }
+
+    #derechos{
+        font-size: 1rem;
+        color: #fff;
+        font-family: Chilanka, cursive;
+        text-align: right;
+    }
